@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#player1, #player2 {
+    width: 50%;
+    text-align: left;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #f0f0f0;
+}
+
+#message {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+#new-game-button, #continue-button, #exit-button, #restart-button {
+    display: none;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+#new-game-button:hover, #continue-button:hover, #restart-button:hover {
+    background-color: #45a049;
+}
+.win-cell {
+    color: red;
+    background-color: yellow; /* Change this to the desired background color */
+}
